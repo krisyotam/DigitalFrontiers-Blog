@@ -1,0 +1,24 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore compiled binaries and build artifacts
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore images that will be uploaded separately
+images/*.jpg
+images/*.png
